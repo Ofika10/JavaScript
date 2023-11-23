@@ -1,5 +1,4 @@
 let nama = prompt("Masukkan Nama Anda");
-
 if (nama == "Salma") {
   alert(
     "Halo " +
