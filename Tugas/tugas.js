@@ -1,12 +1,13 @@
-let nama = prompt("Masukkan Nama Anda");
+const prompt=require("prompt-sync")({sigint:true});
+let nama = prompt("Masukkan Nama Anda : ");
 
-if (nama == "salma") {
+if (nama == "Salma") {
   alert(
     "Halo " +
       nama +
       " , anda mengambil kelas Javascript. Kelas anda berada di labor 103, kelas dimulai jam 10.00"
   );
-} else if (nama == "andre") {
+} else if (nama == "Andre") {
   alert(
     "Halo " +
       nama +
