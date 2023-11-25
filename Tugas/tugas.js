@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 const prompt=require("prompt-sync")({sigint:true});
 let nama = prompt("Masukkan Nama Anda : ");
 
+=======
+let nama = prompt("Masukkan Nama Anda");
+>>>>>>> b7e8c70a078413ebdeeaf9c85cfd867a7eecf291
 if (nama == "Salma") {
   alert(
     "Halo " +
