@@ -8,3 +8,4 @@ for(let j = 1; j <=15; j++){
     console.log("Saya belajar ke- " + j + " kali")
 }
 
+ //Perulangan
