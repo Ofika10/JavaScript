@@ -14,4 +14,8 @@ if (nama == "Salma") {
   );
 } else {
   console.log("Maaf " + nama + " , anda belum mengambil kelas di Kafekoding");
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> ffcd29ffc57be97942a254bb2ce8264c32c86587
