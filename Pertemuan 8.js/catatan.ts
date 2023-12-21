@@ -1,4 +1,4 @@
-array sebuah variabel yang terdapat sebuah index
+array (sebuah variabel yang terdapat sebuah index)
 tipe data yg digunakan untuk mendeskripsikan kumpulan elemen (nilai atau variabel) yang tiap elemennya  memiliki index
 index dimukai dari 0,1,2,3,4
 elemen dimulai dari 1,2,3,4
