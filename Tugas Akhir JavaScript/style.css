@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@keyframes floatAnimation {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+body{
+    font-family: "Poppins" , sans-serif ;
+    font-weight: 400;
+    font-size: 16px;
+    height: 100vh;
+    width: 100%;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+    background-color: #fff;
+}
+
+header .brand {
+    display: flex;
+    align-items: center;
+}
+
+header h1{
+    font-size: 24px;
+    color: #1b1b1b;
+    font-weight: 600;
+}
+
+header .head-link ul {
+    display: flex;
+    gap: 0 10px;
+    list-style: none;
+}
+
+header .head-link ul li a {
+    text-decoration: none;
+    color: #4e4e4e;
+    font-weight: 500;
+    position: relative;
+    transform: .2s ease;
+}
+
+header .head-link ul li a::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 1px;
+    background-color: #0883f7;
+    transition: 0.2s ease;
+}
+
+header .head-link ul li a:hover,
+header .head-link ul li a:hover::before {
+    color: #0883f7;
+    width: 100%;
+}
+
+.benner{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 40px;
+}
+
+.benner .left {
+    width: 500px;
+    color: #1b1b1b;
+}
+
+.benner .left h1{
+    font-size: 28px;
+    font-weight: 600;
+    transform: translateX(-100%);
+    transition: transform 0.5s ease-in-out;
+}
+
+.benner .left p {
+    font-size: 15px;
+    text-align: justify;
+}
+
+.benner .left button {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 12px 20px;
+    background-color: #08d3f7;
+    color: #fff;
+    border-radius: 6px;
+    margin-top: 7px;
+    font-size: 18px;
+}
+
+.benner .right img {
+    width: 500px;
+}
+
+.content {
+    padding: 12px 40px;
+}
+
+.content h1 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #1b1b1b;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.content .cards {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    gap: 0 20px;
+}
+
+.content .card {
+    box-shadow: 2px 2px 15px rgba(0, 0 , 0, 0.1);
+    border-radius: 6px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.content .card .img img {
+    display: block;
+    width: 100%;
+}
+
+.content .card-body h1 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+.content .card-body p {
+    text-align: justify;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.contact {
+   margin-top: 40px;
+   padding: 0 40px;
+}
+
+.contact .title h1 {
+    font-size: 24px;
+    font-weight: 600px;
+    color: #1b1b1b;
+    text-align: center;
+}
+
+.contact .form-input {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 5px 0;
+    font-weight: 500;
+}
+
+.contact .form-input input,
+.contact .form-input textarea {
+    padding: 6px 12px;
+    background: none;
+    border: none;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.contact .form-input button {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 10px 19px;
+    background-color: #08d3f7;
+    color: #fff;
+    border-radius: 6px;
+    margin-top: 7px;
+    font-size: 18px;
+}
+
+footer{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 15px;
+    height: 50px;
+    margin-top: 20px;
+    font-weight: 500;
+}
